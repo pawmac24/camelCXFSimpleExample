@@ -30,14 +30,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ProductRequest }
-     * 
-     */
-    public ProductRequest createProductRequest() {
-        return new ProductRequest();
-    }
-
-    /**
      * Create an instance of {@link Error }
      * 
      */
@@ -51,6 +43,14 @@ public class ObjectFactory {
      */
     public ProductResponse createProductResponse() {
         return new ProductResponse();
+    }
+
+    /**
+     * Create an instance of {@link ProductRequest }
+     * 
+     */
+    public ProductRequest createProductRequest() {
+        return new ProductRequest();
     }
 
 }
